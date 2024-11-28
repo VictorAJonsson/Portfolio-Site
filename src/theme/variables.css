@@ -1,0 +1,10 @@
+:root {
+  --background-color: #242424;
+  --text-color: white;
+  --primary-color: #646cff;
+  --secondary-color: #535bf2;
+
+  /* Cores para o modo claro */
+  --light-background-color: #ffffff;
+  --light-text-color: #213547;
+}
