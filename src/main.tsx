@@ -1,9 +1,9 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import { PresentationLayer } from "./presentation/PresentationLayer";
+import ReactDOM from 'react-dom/client';
+import AppRouter from './presentation/Router/AppRouter';
+import reportWebVitals from './reportWebVitals';
 
-ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-  <React.StrictMode>
-    <PresentationLayer />
-  </React.StrictMode>
-);
+const container = document.getElementById('root');
+const root = ReactDOM.createRoot(container as Element);
+root.render(<AppRouter />);
+
+reportWebVitals(console.log);
